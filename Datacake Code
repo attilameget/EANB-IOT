@@ -25,7 +25,7 @@ function Decoder(payload, payloadB64) {
             
             return value;
         }
-        
+        //
         function phCalibrationScaler() {
             // this calculation assumes that the ph sensor outputs higher voltage value while measuring lower pH. No other options are covered with this function.
             // I am also not caring the for the measurement boundaries of 0 - 14 PH, values can go lower or higher
